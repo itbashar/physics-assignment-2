@@ -1,5 +1,5 @@
 
-
+// Double slit diffraction Order Indicator
 
 #include <stdio.h>
 #include <math.h>
@@ -47,12 +47,7 @@ int main() {
     // Calculate order of maxima
      m = floor ((d * sin(theta)) / lambda);
      printf("%d-th order maxima\n",(int) m);
-    // Check if m is a valid integer
-    //if (m < 1) {
-   //     printf("Invalid order (m must be ≥ 1).\n");
-  //  } else   {
-     //   printf("%d-th order maxima\n", (int)m);
-   // }
+  
 
     return 0;
 }
